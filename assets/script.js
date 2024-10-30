@@ -25,4 +25,14 @@ function somar(a, b){
     return resultado
 }
 
+let somar2 = (a, b) => {
+    let resultado = a + b;
+    return resultado
+}
+
+let x = somar(15, 5)
+let y = somar2(30, 12) 
+console.log(x)
+console.log(y)
+
 
